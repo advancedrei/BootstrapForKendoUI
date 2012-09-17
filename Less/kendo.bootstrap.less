@@ -1,0 +1,149 @@
+/*
+* Kendo UI Complete v2012.2.831 (http://kendoui.com)
+* Copyright 2012 Telerik AD. All rights reserved.
+*
+* Kendo UI Complete commercial licenses may be obtained at
+* https://www.kendoui.com/purchase/license-agreement/kendo-ui-complete-commercial.aspx
+* If you do not own a commercial license, this file shall be governed by the trial license terms.
+*/
+
+@import "../Bootstrap/variables.less";
+
+@image-folder: "Bootstrap";
+@texture-url: url("textures/glass.png");
+
+
+// Widgets
+// --------------------------------------------------
+@widget-text-color: @textColor;
+@widget-background-color: @white;
+@widget-border-color: @tableBorder;
+
+
+// Headers
+// --------------------------------------------------
+@header-text-color: @textColor;
+@header-background-color: @tableBackgroundAccent;
+
+
+// Selects
+// --------------------------------------------------
+@select-background-color: @header-background-color;
+@select-hover-background-color: @hover-background-color;
+@select-group-background-color: @select-background-color;
+@select-border-color: @hover-border-color;
+
+
+// Input
+// --------------------------------------------------
+@input-text-color: @textColor;
+@input-background-color: @inputBackground;
+
+
+// Buttons
+// --------------------------------------------------
+@button-text-color: @btnBackground;
+@button-background-color: @btnPrimaryBackground;
+
+
+// Tooltips
+// --------------------------------------------------
+@tooltip-text-color: @textColor;
+@tooltip-background-color: @widget-background-color;
+@tooltip-border-color: @selected-border-color;
+
+
+
+// Validation
+// --------------------------------------------------
+@validation-text-color: @warningText;
+@validation-background-color: @warningBackground;
+@validation-border-color: @warningBorder;
+
+
+// Links
+// --------------------------------------------------
+@link-text-color: @linkColor;
+
+
+// Hovers
+// --------------------------------------------------
+@hover-text-color: @white;
+@hover-background-color: darken(@linkColor, 5%);
+@hover-border-color: @btnBorder;
+
+
+// Selected
+// --------------------------------------------------
+@selected-text-color: #fff;
+@selected-background-color: @btnPrimaryBackground;
+@selected-border-color: #005c83;
+
+
+// Active
+// --------------------------------------------------
+@active-text-color: @textColor;
+@active-background-color: @white;
+@active-border-color: #9aabb2;
+
+
+// Content
+// --------------------------------------------------
+@content-background-color: @widget-background-color;
+
+
+// Groups
+// --------------------------------------------------
+@group-background-color: darken(@tableBackgroundAccent, 5%);
+@group-border-color: darken(@tableBackgroundAccent, 10%);
+
+
+// Disabled
+// --------------------------------------------------
+//@disabled-border-color: #;
+@disabled-text-color: #8b9097;
+//@disabled-background-color: #;
+
+
+// Error
+// --------------------------------------------------
+@error-text-color: @errorText;
+@error-background-color: @errorBackground;
+@error-border-color: @errorBorder;
+
+
+// Misc
+// --------------------------------------------------
+@splitbar-background-color: @header-background-color;
+@alt-background-color: @tableBackgroundAccent;
+@loading-panel-color: #fff;
+
+
+// Shadows
+// --------------------------------------------------
+@shadow-color:rgba(0, 0, 0, .3);
+@shadow-inset-color: #b4d5e2;
+
+
+// Border Radii
+// --------------------------------------------------
+@main-border-radius: 4px;
+@list-border-radius: @main-border-radius - 1;
+@inner-border-radius: @main-border-radius - 2;
+@slider-border-radius: 13px;
+@draghandle-border-radius: 7px;
+
+@import "template.less";
+
+.k-picker-wrap, .k-dropdown-wrap, .k-numeric-wrap {
+	background-color: @btnPrimaryBackground !important;
+}
+
+.k-button:hover, .k-state-hover .k-link:hover {
+    color: @hover-text-color;
+    text-decoration: none;
+}
+
+.k-tab-on-top .k-link:hover {
+	text-decoration: none;
+}
