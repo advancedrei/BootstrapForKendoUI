@@ -62,6 +62,8 @@
 .k-list .k-state-hover,.k-list .k-state-focused,.k-list .k-state-highlight,.k-list .k-state-selected,.k-dropzone,.k-upload-files{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
 .k-slider .k-button,.k-grid .k-slider .k-button{-moz-border-radius:13px;-webkit-border-radius:13px;border-radius:13px}
 .k-draghandle{-moz-border-radius:7px;-webkit-border-radius:7px;border-radius:7px}
-.k-picker-wrap,.k-dropdown-wrap,.k-numeric-wrap{background-color:#0063ca!important}
+.k-picker-wrap,.k-dropdown-wrap,.k-numeric-wrap,.k-pager-wrap>.k-link,.k-icon{background-color:#0063ca!important}
+.k-dropdown-wrap .k-input{background-color:#fff!important}
 .k-button:hover,.k-state-hover .k-link:hover{color:#fff;text-decoration:none}
 .k-tab-on-top .k-link:hover{text-decoration:none}
+.k-grid-toolbar .k-button .k-icon,.k-grid tbody .k-button .k-icon{background-color:transparent!important}

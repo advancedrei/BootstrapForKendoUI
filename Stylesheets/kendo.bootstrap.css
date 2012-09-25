@@ -501,8 +501,13 @@ textarea.k-textbox:hover,
 }
 .k-picker-wrap,
 .k-dropdown-wrap,
-.k-numeric-wrap {
+.k-numeric-wrap,
+.k-pager-wrap > .k-link,
+.k-icon {
   background-color: #0063ca !important;
+}
+.k-dropdown-wrap .k-input {
+  background-color: #ffffff !important;
 }
 .k-button:hover,
 .k-state-hover .k-link:hover {
@@ -511,4 +516,8 @@ textarea.k-textbox:hover,
 }
 .k-tab-on-top .k-link:hover {
   text-decoration: none;
+}
+.k-grid-toolbar .k-button .k-icon,
+.k-grid tbody .k-button .k-icon {
+  background-color: transparent !important;
 }

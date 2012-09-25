@@ -135,8 +135,12 @@
 
 @import "template.less";
 
-.k-picker-wrap, .k-dropdown-wrap, .k-numeric-wrap {
+.k-picker-wrap, .k-dropdown-wrap, .k-numeric-wrap, .k-pager-wrap > .k-link, .k-icon {
 	background-color: @btnPrimaryBackground !important;
+}
+
+.k-dropdown-wrap .k-input {
+	background-color: @white !important;
 }
 
 .k-button:hover, .k-state-hover .k-link:hover {
@@ -146,4 +150,8 @@
 
 .k-tab-on-top .k-link:hover {
 	text-decoration: none;
+}
+
+.k-grid-toolbar .k-button .k-icon, .k-grid tbody .k-button .k-icon {
+	background-color: transparent !important;
 }
